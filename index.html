@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Auth Form</title>
+  </head>
+
+  <body>
+
+    <!--Header-->
+    <div class="navbar">
+        <div>
+            <h1>Weather Dashboard</h1>
+        </div>
+    </div>
+
+    <!--Main Content-->
+    <div class="container">
+        <div class="searchbar">
+            <h4>Search for a city:</h4>
+            <div class="input-form">
+                <input type="text" class="form-control" id="cityInput" placeholder="City Name">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-primary" type="button" id="citySearchBtn">
+                    <img src="Assets/search.png" width="20px"/></button>
+                </div>
+                
+                <!-- City Table List -->
+                <div class="list-group" id="cityList"></div>                    
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
